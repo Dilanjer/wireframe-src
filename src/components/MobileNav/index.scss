@@ -1,0 +1,50 @@
+@import "../../vars.scss";
+.mobile {
+  &__inner {
+    padding-top: 30px;
+    text-align: left;
+  }
+  &__nav {
+    position: fixed;
+    right: 0;
+    width: 0;
+    top: 0;
+    transition: width 0.5s ease;
+    background-color: $light-greey;
+    height: 100vh;
+    z-index: 200;
+    box-shadow: -2px 0px 2px $dark-blue;
+    a {
+      min-width: 50px;
+      max-width: 200px;
+      text-align: center;
+      display: block;
+      padding: 5px 15px;
+      background-color: $dark-blue;
+      box-shadow: 4px 3px 1px lighten($dark-blue, 50%);
+      opacity: 1;
+      margin: 15px auto 15px 35px;
+      color: $white;
+      font-weight: 600;
+      font-size: 22px;
+      &:first-child {
+        margin-bottom: 30px;
+        max-width: 70px;
+        margin-left: auto;
+        margin-right: 35px;
+      }
+      &:last-child {
+        margin-right: auto;
+      }
+      &:active {
+        background-color: lighten($dark-blue, 20%);
+      }
+      &:focus {
+        user-select: none;
+      }
+    }
+    &.open {
+      width: 70%;
+    }
+  }
+}

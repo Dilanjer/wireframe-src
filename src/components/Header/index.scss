@@ -1,0 +1,27 @@
+@import "../../vars.scss";
+
+.header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 15px 0;
+  border-bottom: 1px solid #253342;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+    .logo {
+      color: $white;
+      font-size: 30px;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+  }
+
+  .burger__menu {
+    display: none;
+  }
+}

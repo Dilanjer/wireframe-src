@@ -1,0 +1,31 @@
+@import "../../vars.scss";
+
+.teamperson {
+  margin: 20px;
+  &__inner {
+    text-align: center;
+  }
+  &__img {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 20px;
+    img {
+      max-width: 300px;
+      height: auto;
+    }
+  }
+  &__name {
+    font-size: 25px;
+    font-weight: 400;
+    color: $dark-greey;
+    margin-bottom: 15px;
+  }
+  &__info {
+    max-width: 230px;
+    margin: 0 auto;
+    word-wrap: break-word;
+    margin-bottom: 30px;
+    color: $dark-greey;
+    font-size: 15px;
+  }
+}

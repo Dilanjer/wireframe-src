@@ -1,0 +1,21 @@
+@import "../../vars.scss";
+
+.footer {
+
+  &__inner {
+    text-align: center;
+  }
+  &__copyrigth {
+    opacity: 0.7;
+    font-size: 12px;
+  }
+  &__link {
+    color: $dark-blue;
+    opacity: 0.8;
+    font-size: 16px;
+    span {
+      margin: 0 15px;
+    }
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,11 @@
+@import "../../vars.scss";
+
+.team {
+  background-color: $light-greey;
+  &__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,30 @@
+@import "../../vars.scss";
+
+.intro {
+  background-color: $dark-blue;
+  // padding-top: 50px;
+  // height: 100vh;
+  &__inner {
+    text-align: center;
+    padding: 60px 0;
+   
+  }
+  &__content {
+    margin-bottom: 80px;
+  }
+  &__title {
+    font-size: 45px;
+    font-weight: 400;
+    color: $white;
+    margin-bottom: 20px;
+  }
+  &__subtitle {
+    font-size: 25px;
+    font-weight: 400;
+    color: $white;
+  }
+  &__img {
+    max-width: 600px;
+    height: auto;
+  }
+}

@@ -1,0 +1,75 @@
+@import "../../vars.scss";
+
+.button {
+  color: $white;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 3px;
+  display: inline-flex;
+  align-self: center;
+  justify-content: center;
+  transition: background-color 0.125s linear, color 0.125s linear, border-color 0.125s linear, opacity 0.125s linear;
+  padding: 7px 30px;
+
+  img {
+    width: 30px;
+  }
+  &-primary {
+    font-size: 16px;
+    background-color: $dark-blue;
+    padding: 10px 30px;
+    &:hover {
+      cursor: pointer;
+      background-color: lighten($dark-blue, 7%);
+    }
+  }
+  &-primary-outline {
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid $greey;
+    padding: 7px 15px;
+    color: $dark-greey;
+    opacity: 0.5;
+    &.active {
+      border-color: $black;
+      color: $black;
+      opacity: 0.8;
+    }
+    &:hover {
+      cursor: pointer;
+      border-color: $black;
+      color: $black;
+      opacity: 0.8;
+    }
+  }
+}
+.nav__link {
+  text-decoration: none;
+  color: $white;
+  opacity: 0.5;
+  margin-right: 30px;
+
+  &-secondry {
+    color: $dark-blue;
+    font-weight: 500;
+    margin-right: 0;
+    opacity: 1;
+    font-size: 14px;
+
+    &:hover {
+      color: darken($dark-blue, 20%);
+    }
+  }
+
+  &-burger {
+    margin-right: 0;
+  }
+  &:last-child {
+    margin-right: 0;
+  }
+  transition: opacity 0.125s linear;
+  &:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+}

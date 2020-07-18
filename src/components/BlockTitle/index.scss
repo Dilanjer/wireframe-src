@@ -1,0 +1,21 @@
+@import "../../vars.scss";
+
+.block-title-content {
+  text-align: center;
+
+  .block__title {
+    font-weight: 400;
+    font-size: 45px;
+    color: $dark-greey;
+    margin-bottom: 30px;
+  }
+  .block__subtitle {
+    font-weight: 300;
+    font-size: 15px;
+    color: $dark-greey;
+    margin-bottom: 55px;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  margin-bottom: 20px;
+}

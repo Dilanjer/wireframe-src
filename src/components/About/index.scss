@@ -1,0 +1,16 @@
+@import "../../vars.scss";
+
+.about {
+  &__inner {
+    text-align: center;
+  }
+  &__img {
+    margin: 30px 0;
+  }
+  &__subtext {
+    max-width: 998px;
+    margin: 0 auto;
+    font-size: 15px;
+    color: $dark-greey;
+  }
+}

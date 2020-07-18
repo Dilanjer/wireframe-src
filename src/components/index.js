@@ -1,0 +1,13 @@
+export { default as Header } from "./Header";
+export { default as Intro } from "./Intro";
+export { default as About } from "./About";
+export { default as Team } from "./Team";
+export { default as TeamPerson } from "./TeamPerson";
+export { default as Portfolio } from "./Portfolio";
+export { default as Contact } from "./Contact";
+export { default as Footer } from "./Footer";
+export { default as BlockTitle } from "./BlockTitle";
+export { default as Button } from "./Button";
+export { default as ProjectCard } from "./ProjectCard";
+export { default as MobileNav } from "./MobileNav";
+export { default as BurgerMenu } from "./BurgerMenu";
